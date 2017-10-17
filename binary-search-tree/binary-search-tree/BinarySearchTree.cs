@@ -7,11 +7,12 @@ namespace binarySearchTree
     class BinarySearchTree
     {
         public Node newNode;
+        public Node root;
         public BinarySearchTree(Node value)
         {
             newNode = value;
         }
-        Node current = root;
+        
         
 
         public void Traversal(Node current)
