@@ -1,0 +1,11 @@
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.csprojResolveAssemblyReference.cache
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.csproj.CoreCompileInputs.cache
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.AssemblyInfoInputs.cache
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.AssemblyInfo.cs
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\bin\Debug\netcoreapp2.0\binarySearchTree.deps.json
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\bin\Debug\netcoreapp2.0\binarySearchTree.runtimeconfig.json
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\bin\Debug\netcoreapp2.0\binarySearchTree.runtimeconfig.dev.json
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\bin\Debug\netcoreapp2.0\binarySearchTree.dll
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\bin\Debug\netcoreapp2.0\binarySearchTree.pdb
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.dll
+C:\Users\admin\codefellows\401\binary-search-tree\binary-search-tree\binary-search-tree\obj\Debug\netcoreapp2.0\binarySearchTree.pdb
