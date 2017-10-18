@@ -69,15 +69,14 @@ namespace binarySearchTree
 
         public void Min(Node current)
         {
+            while(current.Left != null)
+            {
+                current = current.Left;
+            }
             if(current.Left == null)
             {
                 Console.WriteLine(current.Value);
             }
-            else
-            {
-                current.Left = current;
-            }
-            Min(current);
         }
 
         public void Max(Node current)
