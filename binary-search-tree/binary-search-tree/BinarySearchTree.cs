@@ -44,7 +44,7 @@ namespace binarySearchTree
                 if (current.Left == null)
                 {
                     current.Left = new Node(value);
-                    return;
+                    //return;
                 }
                 else
                 {
@@ -57,7 +57,7 @@ namespace binarySearchTree
                 if (current.Right == null)
                 {
                     current.Right = new Node(value);
-                    return;
+                    //return;
                 }
                 else
                 {
