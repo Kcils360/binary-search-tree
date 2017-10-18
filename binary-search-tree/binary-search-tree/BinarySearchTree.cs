@@ -81,15 +81,14 @@ namespace binarySearchTree
 
         public void Max(Node current)
         {
+            while(current.Right != null)
+            {
+                current = current.Right;
+            }
             if(current.Right == null)
             {
                 Console.WriteLine(current.Value);
             }
-            else
-            {
-                current.Right = current;
-            }
-            Max(current);
         }
     }
 }
