@@ -1,0 +1,5 @@
+##Delete Node
+
+We decided the hard fast rule of take the largest child of the first left node.  
+We didn't reference any notes really, just psudo coded the problem domain on the whiteboard.
+I pair-programmed with Austin on his machine to get the code to work so he sent me the final code. Hence only one commit.
