@@ -7,19 +7,39 @@ namespace binary_search_tree
     {
         static void Main(string[] args)
         {
-            Node root = new Node(10);
-            BinarySearchTree BST = new BinarySearchTree(root);
+            BinarySearchTree testTree = new BinarySearchTree();
+            testTree.Add(testTree.Root, 5);
+            testTree.Add(testTree.Root, 6);
+            testTree.Add(testTree.Root, 4);
+            testTree.Add(testTree.Root, 1);
+            testTree.Add(testTree.Root, 2);
+            testTree.Add(testTree.Root, 3);
+            testTree.Add(testTree.Root, 7);
+            testTree.Add(testTree.Root, 8);
 
-            BST.Add(root, 7);
-            BST.Add(root, 12);
-            BST.Add(root, 8);
-            BST.Add(root, 3);
-            BST.Add(root, 13);
-            BST.Add(root, 15);
+            Console.Write("MIN: ");
+            Console.WriteLine(testTree.Min(testTree.Root).Data);
 
-            BST.Traversal(root);
-            //BST.Min(root);
-            //BST.Max(root);
+            Console.Write("MAX: ");
+            Console.WriteLine(testTree.Max(testTree.Root).Data);
+
+            Console.Write("FIND:");
+            Console.WriteLine(testTree.FindParent(testTree.Root, 8).Data);
+
+            Console.WriteLine("Print:");
+            testTree.Print(testTree.Root);
+
+            Console.Write("REMOVE:");
+            Console.WriteLine(testTree.Remove(testTree.Root, 5).Data);
+            Console.WriteLine(testTree.Remove(testTree.Root, 4).Data);
+            Console.WriteLine(testTree.Remove(testTree.Root, 7).Data);
+
+            Console.WriteLine("Print:");
+            testTree.Print(testTree.Root);
+
+
+
+
 
             Console.Read();
         }
